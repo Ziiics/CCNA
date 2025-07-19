@@ -1,0 +1,20 @@
+Computer Network - netwrok of nodes that have digital communication to share resources (router, switch, firewall, server, client)
+  - Client: any endpoint devices, as CPU, laptop, mobilde devices. A guest that access service by server
+  - Server: clinet can also be server, provide service to clients.
+  - Switch: connect hosts within same LAN or area, usually have 24+ ports. Ex Catalyst 9200.
+  - Router: connect switches to internet, fewer network interfaces (port), provide basic security features. Ex ISR 1000, ISR 900, ISR 4000
+  - Firewall: can be outside the router or inside the network (based on configured rule). 
+    - Typically not connected directly to end hosts. Ex ASA 5500-X (classic, the modern one is NG(NextGenF), Firepower 2100 (is NGF).
+      - NGF (Next Generation firewall) -  include more modern capabilities
+      - Host-based firewall - filter traffic entering and exiting a host device.
+  - In the network diagram, internet often show as the cloud.
+
+Interfaces and Cables
+  - On the top of switches, there's usually some information, example
+    - 10/100/1000Base-T Ports (1-24) – Ports are Auto-MDIX
+    - SFP Transceiver - to be connected to Jun switch that is not RJ45
+    - GET UTP AND FIBER CABLE LENGTH DATA FROM NETWORK+
+
+OSI (Open System Intercommunations) Model & TCP/IP Suite
+  - Adjacent-later interaction - interaction between different layers of OSI model
+  - We will mostly be learning about Layer 2 and 3 for the Cisco CCNA
