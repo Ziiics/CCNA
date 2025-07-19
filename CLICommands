@@ -1,0 +1,13 @@
+?    show all possible command
+en      (enable) to access privileged mode before entering config mode
+conf t      (configure terminal) to configure interfaces
+enable password CCNA ?    protect privileged mode
+show running-config    to show the current running configuration
+show startup-config    to show preferred startup, wont show anything if still default config (more details avail)
+service-password encryption     ensure password shows random jumble of numbers, not as secure as it uses Types 7, can be decrypted online
+
+
+show startup-config    to show preferred startup, wont show anything if still default config
+            to make a startup config after adjusting running-config, use
+                write memory     to rewrite running-config
+                copy running-config startup-config    to copy running to startup
